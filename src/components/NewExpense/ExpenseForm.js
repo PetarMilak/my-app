@@ -6,7 +6,7 @@ const ExpenseForm = () => {
   };
 
   return (
-    <form className="new-expense__controls">
+    <form className="new-expense__controls test">
       <div className="new-expense__control">
         <label>Title</label>
         <input type="text" onChange={titleChangeHandler} />
